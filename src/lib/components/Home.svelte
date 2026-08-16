@@ -1,3 +1,7 @@
+<script lang="ts">
+  import favicon from "$lib/assets/favicon.svg";
+</script>
+
 <section
   id="home"
   class="flex min-h-[calc(100vh-4rem)] scroll-mt-16 items-center border-b border-zinc-800"
@@ -25,7 +29,7 @@
       class="mx-auto flex aspect-square w-full max-w-xs items-center justify-center rounded-2xl text-center text-sm text-zinc-500"
     >
       <a href="https://instagram.com/infor_39th">
-        <img src="/src/lib/assets/favicon.svg" alt="logo" />
+        <img src={favicon} alt="logo" />
       </a>
     </div>
   </div>
