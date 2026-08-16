@@ -18,7 +18,7 @@ const config: UserConfig = {
         fallback: null
       }),
       paths: {
-        base: dev ? '' : '/39th-website'
+        base: ''
       }
     })
   ]
