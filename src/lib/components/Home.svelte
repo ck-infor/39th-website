@@ -1,5 +1,5 @@
 <script lang="ts">
-  import favicon from "$lib/assets/favicon.svg";
+  import { base } from "$app/paths";
 </script>
 
 <section
@@ -29,7 +29,7 @@
       class="mx-auto flex aspect-square w-full max-w-xs items-center justify-center rounded-2xl text-center text-sm text-zinc-500"
     >
       <a href="https://instagram.com/infor_39th">
-        <img src={favicon} alt="logo" />
+        <img src="{base}/assets/favicon.svg" alt="logo" />
       </a>
     </div>
   </div>
