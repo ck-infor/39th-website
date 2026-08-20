@@ -1,3 +1,6 @@
+<script lang="ts">
+</script>
+
 <section id="events" class="scroll-mt-16 border-b border-zinc-800 py-20">
   <div
     class="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2 md:items-center"
